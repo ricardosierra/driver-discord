@@ -16,13 +16,8 @@
     ],
     "require": {
         "php": ">=7.0",
-        "botman/botman": "~2.0",
-        "team-reflex/discord-php": "^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~5.0",
-        "mockery/mockery": "dev-master",
-        "ext-curl": "*"
+        "botman/botman": ">=2.0",
+        "team-reflex/discord-php": ">=4.0"
     },
     "autoload": {
         "psr-4": {
