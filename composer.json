@@ -19,6 +19,9 @@
         "botman/botman": ">=2.0",
         "ricardosierra/discord-php": ">=5.0"
     },
+    "replace": {
+        "botman/driver-discord":"*"
+    },
     "autoload": {
         "psr-4": {
             "BotMan\\Drivers\\Discord\\": "src/"
